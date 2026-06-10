@@ -6,9 +6,24 @@
 </head>
 <body>
     <h1>Student Registration Form</h1>
-    <label for="Student" id="sname">Student Name:</label>
-    <input type="text"><br><br>
-    <label for="StudentID" id="sid">Student ID:</label>
-    <input type="text">
+    <label for="Student" id="sname"><b>Student Name:</b></label>
+    <input type="text" placeholder="Enter your name"><br><br>
+    <label for="StudentID" id="sid"><b>Student ID:</b></label>
+    <input type="text" id="studentID" name="studentID" placeholder="Enter your ID"><br><br>
+    <label for="StudentDOB" id="sdob"><b>Date of Birth:</b></label>
+    <input type="date" id="studentDOB" name="studentDOB"><br><br>
+    <label for="StudentGender" id="sgender"><b>Gender:</b></label>
+    <input type="radio" id="male" name="studentGender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="studentGender" value="female">
+    <label for="female">Female</label><br><br>
+    <label for="StudentEmail" id="semail"><b>Email:</b></label>
+    <input type="email" id="studentEmail" name="studentEmail" placeholder="Enter your email"><br><br>
+    <label for="StudentPhone" id="sphone"><b>Phone Number:</b></label>
+    <input type="tel" id="studentPhone" name="studentPhone" placeholder="Enter your phone number"><br><br>
+    <label for="StudentAddress" id="saddress"><b>Address:</b></label>
+    <textarea name="studentAddress" id="studentAddress" placeholder="Enter your address"></textarea><br><br>
+    <input type="submit" value="SignUp">
+    <input type="button" value="Reset">
 </body>
 </html>
