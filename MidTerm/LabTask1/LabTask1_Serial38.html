@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Internship Form</title>
+  </head>
+  <body>
+    <center>
+      <h1>Internship Data Collection Form</h1>
+    </center>
+    <form>
+      <table align="center">
+        <tr>
+          <td>Student Name:</td>
+          <td><input type="text" name="sname" required /></td>
+        </tr>
+        <tr>
+          <td>Email Address:</td>
+          <td><input type="email" name="email" required /></td>
+        </tr>
+        <tr>
+          <td>Preferred Internship Type:</td>
+          <td>
+            <input type="radio" name="intern-type" value="on-site" />On-Site
+            <input type="radio" name="intern-type" value="remote" />Remote
+          </td>
+        </tr>
+        <tr>
+          <td>Internship Duration:</td>
+          <td>
+            <select name="Internship-duration">
+              <option value="6weeks">6 Weeks</option>
+              <option value="3 Months">3 Months</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Skills of Interest:</td>
+          <td>
+            <input type="checkbox" name="SOI" value="webdev" />Web Development
+            <input type="checkbox" name="SOI" value="datanalysis" />Data
+            Analysis
+            <input type="checkbox" name="SOI" value="mobileapps" />Mobile Apps
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" value="Submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
