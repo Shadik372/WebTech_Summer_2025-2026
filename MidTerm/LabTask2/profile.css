@@ -1,0 +1,50 @@
+header{
+    color: white;
+    background-color: #CB2957;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.page-title{
+    font-family: Arial, sans-serif;
+}
+table{
+    row-gap: 5px;   
+    column-gap: 5px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+}
+main{
+    background-color: #FFF2DB;
+    border-radius: 10px;
+}
+footer{
+    color: white;
+    background-color: #CB2957;
+    padding: 10px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.profile-section {
+    width: 60%;         
+    margin: 20px auto; 
+    padding: 20px;      
+    border: 2px solid #CB2957; 
+    border-radius: 10px;
+    background-color: #FFF2DB;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+}
